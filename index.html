@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jalisco School Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Jalisco School Finder</h1>
+
+    <div class="filters">
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Search by name (e.g., GASTON)"
+      >
+
+      <select id="municipioSelect">
+        <option value="">All Municipios</option>
+      </select>
+
+      <select id="nivelSelect">
+        <option value="">All Levels</option>
+      </select>
+
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
